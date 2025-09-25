@@ -78,9 +78,9 @@ export const EventCards = () => {
                 Share your knowledge with the community at <strong>WEB3 SECURITY SUMMIT AFRICA</strong> and help drive security awareness and education across the continent.
               </p>
 
-              <button onClick={() => navigate('/speaker')} className="bg-green-500 text-white px-6 py-3 rounded-lg font-semibold cursor-pointer transition-colors">
+              <a href="https://forms.gle/sw9wkubF92MK4SRb8" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white px-6 py-3 rounded-lg font-semibold cursor-pointer transition-colors">
                 Click here
-              </button>
+              </ a>
             </div>
           </motion.div>
 

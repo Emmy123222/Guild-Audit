@@ -63,18 +63,7 @@ export const Herosection = () => {
                   <MapPin className="text-green-500 w-5 h-5" />
                   <span>Lagos State, Nigeria.</span>
                 </div>
-                {timeLeft ? (
-                  <div className="flex items-center gap-2 ml-4 text-sm text-gray-700">
-                    <span className="font-semibold">Starts in:</span>
-                    <span>
-                      {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
-                    </span>
-                  </div>
-                ) : (
-                  <div className="flex items-center gap-2 ml-4 text-sm text-green-600 font-semibold">
-                    We’re live!
-                  </div>
-                )}
+                
               </div>
 
               <p className="text-black mt-6 text-base sm:text-lg md:text-xl md:text-left text-center max-w-3xl">
@@ -82,14 +71,14 @@ export const Herosection = () => {
               </p>
 
               <div className="flex md:justify-start justify-center mt-8 gap-4 sm:gap-6">
-                <button
-                  onClick={() => navigate('/register')}
+              <a href="https://luma.com/p8wpq25z" target="_blank" rel="noopener noreferrer"
+
                   className="relative overflow-hidden bg-black cursor-pointer text-white px-6 sm:px-8 py-3 rounded font-semibold group"
                 >
                   <span className="relative z-10 transition-opacity duration-200 group-hover:opacity-0">Register</span>
                   <span className="absolute inset-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out bg-[#01E101]"></span>
                   <span className="absolute inset-0 flex items-center justify-center z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200">Join</span>
-                </button>
+                </a>
                 
               </div>
 

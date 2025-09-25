@@ -31,7 +31,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <nav className="bg-white w-full text-black flex justify-between items-center  sticky top-0 z-50">
+    <nav className="bg-white w-full text-black flex justify-between items-center   sticky top-0 z-50">
       <div className='container mx-auto flex flex-wrap items-center justify-between gap-2 px-3 md:px-4 max-w-7xl'>
         {/* Left: Logo only */}
         <div className="flex items-center">
@@ -55,14 +55,13 @@ const Navbar = () => {
               Live Now
             </button>
           )}
-          <button
-            onClick={() => navigate('/register')}
+          <a href="https://luma.com/p8wpq25z" target="_blank" rel="noopener noreferrer"
             className="relative overflow-hidden bg-black cursor-pointer text-white px-4 py-2 rounded text-sm sm:text-base sm:w-auto group"
           >
             <span className="relative z-10 transition-opacity duration-200 group-hover:opacity-0">Register</span>
             <span className="absolute inset-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out bg-[#01E101]"></span>
             <span className="absolute inset-0 flex items-center justify-center z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200 font-semibold">Join</span>
-          </button>
+          </a>
          
         </div>
 
@@ -91,14 +90,13 @@ const Navbar = () => {
                     Live Now
                   </button>
                 )}
-                <button
-                  onClick={() => { navigate('/register'); setOpen(false); }}
+                <a href="https://luma.com/p8wpq25z" target="_blank" rel="noopener noreferrer"
                   className="relative overflow-hidden bg-black text-white px-4 py-2 rounded group"
                 >
                   <span className="relative z-10 transition-opacity duration-200 group-hover:opacity-0">Register</span>
                   <span className="absolute inset-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out bg-[#01E101]"></span>
                   <span className="absolute inset-0 flex items-center justify-center z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200 font-semibold">Join</span>
-                </button>
+                </a>
                
               </div>
             </div>

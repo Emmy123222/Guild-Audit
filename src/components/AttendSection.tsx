@@ -55,9 +55,9 @@ export const AttendSection = () => {
                   Whether you're new to Web3 security or an experienced auditor, the WEB3 SECURITY SUMMIT AFRICA offers the perfect opportunity to learn, connect, and grow within Africa’s leading blockchain security ecosystem.
                 </p>
                 
-                <button onClick={() => navigate('/register')} className="bg-green-500 text-white px-8 py-3 rounded-lg font-semibold cursor-pointer transition-colors w-full">
+                <a href="https://luma.com/p8wpq25z" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white px-8 py-3 rounded-lg font-semibold cursor-pointer transition-colors w-full">
                   Click here
-                </button>
+                </a>
               </div>
             </div>
           </motion.div>

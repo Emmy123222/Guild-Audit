@@ -22,7 +22,7 @@ export const EventPartners: React.FC = () => {
         <h2 className="text-2xl sm:text-3xl font-bold  text-black ">
           Event Partners
         </h2>
-        <p className="mt-2  text-black ">
+        <p className="mt-2 text-[20px]  text-black ">
           Shoutout to our partners collaborating to deliver a world-class experience.
         </p>
 
