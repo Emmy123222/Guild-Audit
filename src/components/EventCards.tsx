@@ -77,7 +77,7 @@ export const EventCards = () => {
               </p>
 
               <a href="https://forms.gle/sw9wkubF92MK4SRb8" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white px-6 py-3 rounded-lg font-semibold cursor-pointer transition-colors">
-                Click here
+                Click to Register
               </ a>
             </div>
           </motion.div>

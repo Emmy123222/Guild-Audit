@@ -34,7 +34,7 @@ export const Herosection = () => {
   }, [])
 
   return (
-    <div className="relative mx-auto max-w-7xl  mt-24">
+    <div className="relative mx-auto max-w-7xl mt-16 sm:mt-20 lg:mt-24 px-4 sm:px-6 lg:px-8">
       <div
         className="h-full flex items-center relative bg-white"
       >
@@ -45,10 +45,10 @@ export const Herosection = () => {
           aria-hidden
           className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 w-48 lg:w-80 xl:w-96 opacity-90 pointer-events-none select-none"
         />
-        <div className="w-full px-4">
+        <div className="w-full">
           <div className="container mx-auto">
             <div className="max-w-4xl md:pl-2 lg:pl-4">
-              <h1 className="text-black text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight md:text-left text-center">
+              <h1 className="text-black text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] md:text-left text-center">
                 WEB3 SECURITY SUMMIT AFRICA
               </h1>
 
@@ -64,13 +64,13 @@ export const Herosection = () => {
                 
               </div>
 
-              <p className="text-black mt-6 text-[40px] sm:text-lg md:text-xl md:text-left text-center max-w-3xl">
+              <p className="text-black mt-4 sm:mt-6 text-base sm:text-lg md:text-xl md:text-left text-center max-w-2xl sm:max-w-3xl mx-auto md:mx-0">
               ​The Web3 Security Summit Africa is a premier gathering of blockchain builders, security researchers, and industry leaders across the continent. This event will spotlight the most critical challenges in Web3 security, from smart contract vulnerabilities and DeFi exploits to cross-chain bridge risks and MEV, while showcasing solutions that make decentralized systems safer.              </p>
 
-              <div className="flex md:justify-start justify-center mt-8 gap-4 sm:gap-6">
+              <div className="flex md:justify-start justify-center mt-6 sm:mt-8 gap-3 sm:gap-4 flex-wrap">
               <a href="https://luma.com/p8wpq25z" target="_blank" rel="noopener noreferrer"
 
-                  className="relative overflow-hidden bg-black cursor-pointer text-white px-6 sm:px-8 py-3 rounded font-semibold group"
+                  className="relative overflow-hidden bg-black cursor-pointer text-white px-6 sm:px-8 py-3 rounded font-semibold group w-full sm:w-auto text-center"
                 >
                   <span className="relative z-10 transition-opacity duration-200 group-hover:opacity-0">Register</span>
                   <span className="absolute inset-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out bg-[#01E101]"></span>
@@ -80,7 +80,7 @@ export const Herosection = () => {
               </div>
 
               {timeLeft && (
-                <div className="mt-6 flex md:justify-start justify-center gap-6 text-black">
+                <div className="mt-6 flex md:justify-start justify-center gap-4 sm:gap-6 text-black flex-wrap">
                   <div className="text-center">
                     <div className="text-2xl sm:text-3xl font-extrabold">{timeLeft.days}</div>
                     <div className="text-xs sm:text-sm uppercase tracking-wide text-gray-700">Days</div>

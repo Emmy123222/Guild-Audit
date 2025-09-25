@@ -54,7 +54,7 @@ export const AttendSection = () => {
                 </p>
                 
                 <a href="https://luma.com/p8wpq25z" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white px-8 py-3 rounded-lg font-semibold cursor-pointer transition-colors w-full">
-                  Click here
+                  Click to Register
                 </a>
               </div>
             </div>
