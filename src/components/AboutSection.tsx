@@ -1,5 +1,5 @@
 import { Link } from 'lucide-react'
-import Guild from '../assets/Ter.jpg'
+import Guild from '../assets/woman.jpg'
 import { motion } from 'framer-motion'
 
 export const AboutSection = () => {
@@ -12,11 +12,9 @@ export const AboutSection = () => {
               <h1 className="text-gray-800  font-bold text-center mb-10">
               The WEB3 SECURITY SUMMIT AFRICA is a 1-day  event dedicated to advancing Web3 security in Africa.
               Organized for security auditors, researchers, developers, and blockchain professionals, the summit features in-depth workshops, expert panels, and networking sessions aimed at strengthening the Web3 ecosystem.
-              It brings together leading minds from across Nigeria and beyond to collaborate, learn, and drive innovation in blockchain security.
-              </h1>
-              
-
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              It brings together leading minds from across Africa and beyond to collaborate, learn, and drive innovation in blockchain security.
+              </h1>        
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
  
   <motion.div
     className="space-y-8"
@@ -37,7 +35,7 @@ export const AboutSection = () => {
             At WEB3 SECURITY SUMMIT AFRICA, we believe that education and security are essential pillars for blockchain adoption across Africa.
           </p>
           <p className="text-gray-800 leading-relaxed">
-            That's why we created the <strong>WEB3 SECURITY SUMMIT AFRICA</strong> — a platform designed to train, connect, and empower Web3 security auditors and professionals, fostering a stronger and safer blockchain ecosystem.
+            That's why we created the <strong>WEB3 SECURITY SUMMIT AFRICA</strong> , a platform designed to  connect, and empower Web3 security auditors and professionals, fostering a stronger and safer blockchain ecosystem.
           </p>
         </div>
       </div>
@@ -71,7 +69,7 @@ export const AboutSection = () => {
 
 </div>
 
-      </div>
+</div>
     </div>
   )
 }

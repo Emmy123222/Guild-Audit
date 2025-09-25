@@ -1,5 +1,5 @@
 import { Camera } from 'lucide-react'
-import Guild from '../assets/Duzzy.png'
+import Guild from '../assets/standing.jpg'
 import { motion } from 'framer-motion'
 
 export const AttendSection = () => {

@@ -24,7 +24,7 @@ export const EventCards = () => {
 
             <div className="space-y-4">
               <p className="text-gray-800 leading-relaxed">
-                The <strong>WEB3 SECURITY SUMMIT AFRICA</strong> is a 3-day hybrid event — both physical and virtual — focused on education, collaboration, and innovation in blockchain security.
+                The <strong>WEB3 SECURITY SUMMIT AFRICA</strong> is a 1-day hybrid event — both physical and virtual — focused on education, collaboration, and innovation in blockchain security.
               </p>
 
               <ul className="space-y-2 text-gray-800">

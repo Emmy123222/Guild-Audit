@@ -64,9 +64,8 @@ export const Herosection = () => {
                 
               </div>
 
-              <p className="text-black mt-6 text-base sm:text-lg md:text-xl md:text-left text-center max-w-3xl">
-                The Web3 Security Summit Africa is the largest Web3 event in Lagos, Nigeria. This conference is designed for security auditors, bringing together experts and enthusiasts from across Nigeria and beyond.
-              </p>
+              <p className="text-black mt-6 text-[40px] sm:text-lg md:text-xl md:text-left text-center max-w-3xl">
+              ​The Web3 Security Summit Africa is a premier gathering of blockchain builders, security researchers, and industry leaders across the continent. This event will spotlight the most critical challenges in Web3 security, from smart contract vulnerabilities and DeFi exploits to cross-chain bridge risks and MEV, while showcasing solutions that make decentralized systems safer.              </p>
 
               <div className="flex md:justify-start justify-center mt-8 gap-4 sm:gap-6">
               <a href="https://luma.com/p8wpq25z" target="_blank" rel="noopener noreferrer"
