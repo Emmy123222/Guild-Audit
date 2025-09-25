@@ -1,10 +1,8 @@
 import { Calendar, Mic } from 'lucide-react'
 import { motion } from 'framer-motion'
-import { useHashRoute } from '../hooks/useHashRoute'
 
 
 export const EventCards = () => {
-  const [, navigate] = useHashRoute();
   return (
     <div className="bg-white py-16 px-4 mx-auto max-w-7xl">
       <div className="container mx-auto">

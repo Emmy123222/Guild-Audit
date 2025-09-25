@@ -1,10 +1,8 @@
 import { Camera } from 'lucide-react'
 import Guild from '../assets/Duzzy.png'
-import { useHashRoute } from '../hooks/useHashRoute'
 import { motion } from 'framer-motion'
 
 export const AttendSection = () => {
-    const [, navigate] = useHashRoute();
   
   return (
     <div className="bg-white py-16 px-4 mx-auto max-w-7xl">

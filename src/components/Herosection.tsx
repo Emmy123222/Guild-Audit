@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { MapPin, Calendar } from 'lucide-react'
-import { useHashRoute } from '../hooks/useHashRoute'
 import BoxBurst from '../assets/box_burst.png'
 
 
@@ -23,9 +22,8 @@ const calculateTimeLeft = () => {
 }
 
 export const Herosection = () => {
-  const [, navigate] = useHashRoute();
 
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft())
+  const [ timeLeft,setTimeLeft] = useState(calculateTimeLeft())
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -81,6 +79,27 @@ export const Herosection = () => {
                 </a>
                 
               </div>
+
+              {timeLeft && (
+                <div className="mt-6 flex md:justify-start justify-center gap-6 text-black">
+                  <div className="text-center">
+                    <div className="text-2xl sm:text-3xl font-extrabold">{timeLeft.days}</div>
+                    <div className="text-xs sm:text-sm uppercase tracking-wide text-gray-700">Days</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl sm:text-3xl font-extrabold">{timeLeft.hours}</div>
+                    <div className="text-xs sm:text-sm uppercase tracking-wide text-gray-700">Hours</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl sm:text-3xl font-extrabold">{timeLeft.minutes}</div>
+                    <div className="text-xs sm:text-sm uppercase tracking-wide text-gray-700">Minutes</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl sm:text-3xl font-extrabold">{timeLeft.seconds}</div>
+                    <div className="text-xs sm:text-sm uppercase tracking-wide text-gray-700">Seconds</div>
+                  </div>
+                </div>
+              )}
 
               <div className="mt-6 md:text-left text-center text-sm text-gray-600">
                 Follow us for updates: <a href="https://x.com/GuildAcademy_" className="underline-offset-2 hover:underline">@GuildAcademy_</a>
